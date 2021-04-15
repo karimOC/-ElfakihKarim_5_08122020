@@ -1,0 +1,52 @@
+.titreSite {
+  font-family: "Dancing Script", cursive;
+  font-size: 13px;
+}
+nav {
+  .navbar {
+    background-color: rgb(240, 240, 240);
+  }
+  .navbar-brand {
+    color: black;
+  }
+}
+#listCameras {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#camera-card {
+  margin: 10px;
+  img {
+    height: 180px;
+  }
+}
+#ligne-panier {
+  display: flex;
+  flex-direction: column;
+  img {
+    width: 100px;
+  }
+  .prix-camera-panier {
+    font-weight: bold;
+  }
+  .quantity {
+    width: 40px;
+    margin-bottom: 15px;
+  }
+}
+footer {
+  margin-top: 45px;
+  font-size: 13px;
+  a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+  }
+  a:hover {
+    color: rgb(235, 152, 0);
+  }
+}
+
+@media (min-width: 560px) {
+}

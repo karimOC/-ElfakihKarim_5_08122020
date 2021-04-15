@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="bootstrap-5.0.0-beta1-dist/css/bootstrap.min.css"
+    />
+    <title>Caméras Vintage - Accueil</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="logo.png"
+              alt="logo Orinoco"
+              width="120"
+              height="60"
+              class="d-inline-block align-top"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-sm-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Accueil
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="container mt-4">
+      <div id="panier-vide" class="col-12">
+      </div>
+      <section>
+        <div id="ligne-panier" classs="container border-bottom"></div>
+        <div class="row border-bottom">
+          <div id="btn-supprimer" class="col-7"></div>
+          <div class="col-5 d-flex justify-content-end">
+            <p>
+              <strong id="text-ttc"></strong>
+              <strong id="total-ttc"></strong>
+            </p>
+          </div>
+        </div>
+      </section>
+      <div class="col-12">
+        <form id="formulaire">
+          <div class="form-row mt-5">
+            <div class="form-group col-12-xs">
+              <label for="lastName">Nom</label>
+              <input id="lastName" type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="form-row mt-2">
+            <div class="form-group col-12-xs">
+              <label for="firstName">Prénom</label>
+              <input id="firstName" type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="form-row mt-2">
+            <div class="form-group col-12-xs">
+              <label for="address">Adresse</label>
+              <input id="address" type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="form-row mt-2">
+            <div class="form-group col-12-xs">
+              <label for="city">Ville</label>
+              <input id="city" type="text" class="form-control" />
+            </div>
+          </div>
+          <div class="form-row mt-2">
+            <div class="form-group col-12-xs">
+              <label for="email">E-mail</label>
+              <input id="email" type="email" class="form-control" />
+            </div>
+          </div>
+          <div id="message-erreur"></div>
+            <button
+              id="btn-commander"
+              type="submit"
+              class="btn btn-warning mt-3"
+            >
+              Commander
+          </a>
+        </form>
+      </div>
+    </div>
+    <footer class="bg-dark text-center">
+      <div
+        class="text-center d-flex flex-column flex-md-row justify-content-center p-3"
+        style="color: white"
+      >
+        <a href="#">Conditions générales de vente</a>
+        <a href="#">Informations légales</a>
+        <a href="#">À propos de nous</a>
+        <a href="#">Contact</a>
+      </div>
+      <div class="text-center p-3" style="color: white">
+        <small>© 2021 Copyright: VintageCam.</small>
+      </div>
+    </footer>
+    <script src="bootstrap-5.0.0-beta1-dist/js/jquery.js"></script>
+    <script src="bootstrap-5.0.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/panier.js"></script>
+  </body>
+</html>
