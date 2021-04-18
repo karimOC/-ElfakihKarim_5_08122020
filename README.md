@@ -6,10 +6,7 @@ INSTALLATION
 
 - Repo à cloner => https://github.com/karimOC/ElfakihKarim_5_08122020.git
 
-
 - Invite de cmd ou terminal => Dans le dossier JWDP5 entrez "npm install" ensuite "node server"
-=======
-- Invite de cmd ou terminal => Dans le dossier JWDP5 entrez "node server"
 Message que vous devez appercevoir : 
 Listening on port 3000
 Successfully connected to MongoDB Atlas!
