@@ -6,7 +6,7 @@ INSTALLATION
 
 - Repo à cloner => https://github.com/karimOC/ElfakihKarim_5_08122020.git
 
-<<<<<<< HEAD
+
 - Invite de cmd ou terminal => Dans le dossier JWDP5 entrez "npm install" ensuite "node server"
 =======
 - Invite de cmd ou terminal => Dans le dossier JWDP5 entrez "node server"
