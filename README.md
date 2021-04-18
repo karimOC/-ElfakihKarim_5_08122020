@@ -9,7 +9,6 @@ INSTALLATION
 - Invite de cmd ou terminal => Dans le dossier JWDP5 entrez "npm install" ensuite "node server"
 Message que vous devez appercevoir : 
 Listening on port 3000
-Successfully connected to MongoDB Atlas!
 
 Url du site => http://127.0.0.1:5500/index.html
 
